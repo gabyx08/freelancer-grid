@@ -1,7 +1,7 @@
 /*
  * Estilos de tu proyecto
  */
- 
+
  header{
  	background-color: #31455A;
  	color: white;
@@ -26,7 +26,7 @@ a:hover {
 }
 
  .tituloHeader{
- 	font-size: 25px; 
+ 	font-size: 25px;
  	font-style: bold;
  	padding: 0 20px;
  }
@@ -37,8 +37,8 @@ a:hover {
 
  #presentacion{
   background-color: #18BC9C;
-  height: 600px;
-  padding: 80px 10px 50px;
+  height: 100%;
+  padding: 90px 10px 50px;
 }
 
 .tituloPresentacion{
@@ -58,24 +58,25 @@ a:hover {
 hr{
 	width: 250px;
 	border-top: solid 5px;
-	margin: auto;	
+	margin: auto;
 }
 
 .presentacionHr{
 	color: white;
 }
-.portafolioHr{
+.portfolioHr{
 	color: #2C3E50;
 }
 
-#portafolio{
+#portfolio{
 	color: #333333;
 	padding: 50px 10px;
 }
-.tituloPortafolio{
+
+.tituloportfolio{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 42px;
-	padding: 15px;
+	padding: 20px;
 }
 
 .imagen{
@@ -86,4 +87,66 @@ hr{
 	background-color: #18BC9C;
 	padding: 50px 10px;
 	color: white;
+}
+
+.texto{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.textoIzquierda{
+  padding: 10% 2% 10% 15%;
+}
+
+.textoDerecha{
+  padding: 10% 15% 10% 2%;
+}
+
+.btnDownload{
+  border: 3px solid white;
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.btnDownload:hover{
+  color: #18BC9C;
+  background-color: white;
+}
+
+#contact{
+  color: #333333;
+	padding: 50px 10px;
+}
+
+.form{
+  border-top: 1px solid #DDE1E1;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 50%;
+  height: 5%;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.form2{
+  border-bottom: 1px solid #DDE1E1;
+}
+
+.btnSend{
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  background: #18BC9C;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.btnSend:hover{
+  background: #128F76;
 }
