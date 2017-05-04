@@ -7,6 +7,7 @@
  	color: white;
  	font-family: 'Montserrat', sans-serif;
  	text-decoration: none;
+ 	position: fixed;
  }
 
 a {
@@ -27,8 +28,36 @@ a:hover {
  .tituloHeader{
  	font-size: 25px; 
  	font-style: bold;
+ 	padding: 0 20px;
  }
 
  .texto{
  	font-family: 'Lato', sans-serif;
  }
+
+ #presentacion{
+  background-color: #18BC9C;
+  height: 570px;
+  padding: 70px 10px 50px;
+}
+
+.tituloPresentacion{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 66px;
+	color: white;
+	padding: 15px;
+}
+
+.infoPresentacion{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+}
+
+hr{
+	width: 250px;
+	border-top: solid 5px;
+	color: white;
+	margin: auto;	
+}
