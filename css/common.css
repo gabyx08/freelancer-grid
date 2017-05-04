@@ -77,3 +77,13 @@
 .col-12{
 	width: 100%;
 }
+
+/*  ESTILOS COMUNES  */
+
+.center{
+ 	text-align: center;
+ }
+
+ .text-uppercase{
+ 	text-transform: uppercase;
+ }
