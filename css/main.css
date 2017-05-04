@@ -37,8 +37,8 @@ a:hover {
 
  #presentacion{
   background-color: #18BC9C;
-  height: 570px;
-  padding: 70px 10px 50px;
+  height: 600px;
+  padding: 80px 10px 50px;
 }
 
 .tituloPresentacion{
@@ -58,6 +58,26 @@ a:hover {
 hr{
 	width: 250px;
 	border-top: solid 5px;
-	color: white;
 	margin: auto;	
+}
+
+.presentacionHr{
+	color: white;
+}
+.portafolioHr{
+	color: #2C3E50;
+}
+
+#portafolio{
+	color: #333333;
+	padding: 50px 10px;
+}
+.tituloPortafolio{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 42px;
+	padding: 15px;
+}
+
+.imagen{
+	width: 90%;
 }
