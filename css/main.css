@@ -81,3 +81,9 @@ hr{
 .imagen{
 	width: 90%;
 }
+
+#about{
+	background-color: #18BC9C;
+	padding: 50px 10px;
+	color: white;
+}
